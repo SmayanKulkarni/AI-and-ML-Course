@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning Marks Input</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Enter Marks for Machine Learning Subjects</h1>
+        <form action="/submit" method="POST" class="mt-4">
+            <div class="form-group">
+                <label for="Data Preprocessing">Machine Learning Basics:</label>
+                <input type="number" class="form-control" id="subject1" name="subject1" required>
+            </div>
+            <div class="form-group">
+                <label for="DE">Deep Learning:</label>
+                <input type="number" class="form-control" id="subject2" name="subject2" required>
+            </div>
+            <div class="form-group">
+                <label for="ML">Natural Language Processing:</label>
+                <input type="number" class="form-control" id="subject3" name="subject3" required>
+            </div>
+            <div class="form-group">
+                <label for="DL">Computer Vision:</label>
+                <input type="number" class="form-control" id="subject4" name="subject4" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
